@@ -13,6 +13,7 @@ def findTarget(nums, target):
             end_index = middle_index
     
     pivot_index = start_index
+    # print(nums[pivot_index])
     start_index = 0
     end_index = len(nums) - 1
 
@@ -34,5 +35,5 @@ def findTarget(nums, target):
 
  
 nums = [4,5,6,7,1,2]
-target = 3
+target = 5
 print(findTarget(nums, target))

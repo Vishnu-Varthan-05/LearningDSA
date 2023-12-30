@@ -1,4 +1,4 @@
-original_n = 2
+original_n = 5
 n = 2 * original_n
 for row in range(n + 1):
     for col in range(n + 1):

@@ -4,6 +4,7 @@ def searchRange(nums, target):
     end = findSearch(nums, target, 0)
     answer[0] = start
     answer[1] = end
+    print("fuck u")
     return answer
 
 def findSearch(nums, target, findStartIndex):
